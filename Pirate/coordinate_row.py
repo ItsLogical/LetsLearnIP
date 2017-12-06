@@ -43,7 +43,7 @@ class CoordinateRow():
         return self.coordinate_row
 
     # returns the coordiante_row as a list (coordinate lists instead of coordinate objects)
-    def getList(self):
+    def get_list(self):
         list = []
         for coordinate in self.coordinate_row:
             list.append(coordinate.get())

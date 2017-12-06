@@ -19,4 +19,3 @@ class Coordinate():
     # to return the coordinate as a list (instead of object)        
     def get(self):
         return self.x, self.y
-    

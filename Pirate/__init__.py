@@ -34,9 +34,9 @@ def create_coordinate(raw_coordinate):
     return coordinate
     
 # opens the input file as READ-ONLY
-inputFile = open('input.txt', 'r')
+input_file = open('input.txt', 'r')
 # reads the actual content of the file and stores it in input 
-input = inputFile.read() 
+input = input_file.read() 
 
 # in this list, we will store all of the coordinate_row objects
 coordinate_rows = [] 
@@ -66,4 +66,4 @@ result.shift(1,0)
 # print the resulting list
 # we cannot print result directly, because it will then print the object
 # whereas it should print the list of coordinates 
-print result.getList()
+print result.get_list()
